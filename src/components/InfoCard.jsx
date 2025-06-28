@@ -6,7 +6,7 @@ const InfoCard = () => {
         <div className="flex gap-40 justify-between items-center px-4">
             <div className="flex gap-3 items-center">
                 <div className="profile-pic rounded-full border-blue-400 border-[5px] items-center">
-                    <img src='src\assets\react.svg'/>
+                    <img src='\assets\images\profile.jpg' className='w-8 h-8 rounded-full'/>
                 </div>
                 <div className="info flex flex-col  items-start">
                     <div className="name text-2xl  font-medium">Sanyam Bothra</div>
