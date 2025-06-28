@@ -1,0 +1,33 @@
+.radial-gradient{
+    object-fit: contain;
+    background-image:  radial-gradient(closest-side, #00000000, #0000001e, #00000064);
+    opacity: 1;
+    transition: all 1s ease;
+
+}
+.radial-gradient:hover{
+    opacity: 0.5;
+
+}
+.titles{
+    transition: all 0.2s ease-out;
+}
+.card-one:hover .titles{
+    transform: translateX(3vw);
+
+}
+.skills{
+    transition: all 0.2s ease-in;
+}
+.card-one:hover .skills{
+    transform: translateX(-35vw);
+
+}
+.cta{
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+.card-one:hover .cta{
+    transform: translateY(-4vw);
+
+}

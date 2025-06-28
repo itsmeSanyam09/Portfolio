@@ -1,0 +1,21 @@
+.row{
+    animation: translation 20s linear infinite;
+
+}
+
+@keyframes translation{
+    0%{
+        transform: translateX(0rem);
+    }
+
+    100%{
+        transform: translateX(-72rem);
+    }
+
+}
+
+.skills:hover .row{
+    animation-play-state: paused;
+
+}
+
