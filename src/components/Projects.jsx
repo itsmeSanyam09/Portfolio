@@ -28,7 +28,7 @@ const Projects = () => {
               </div>
             </div>
             <button onClick={() => window.open('https://static-webapp-1.vercel.app/', '_blank')} className="cta absolute mt-10 top-96 translate-y-40 left-11 rounded-xl bg-slate-200 p-1 px-2 text-base text-black flex items-center">
-              View Live <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              View Live <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 
 
             </button>
@@ -54,7 +54,7 @@ const Projects = () => {
               </div>
             </div>
             <button onClick={() => window.open('https://two-good-co-one.vercel.app/', '_blank')} className="cta absolute mt-10 top-96 translate-y-40 left-11 rounded-xl bg-slate-200 p-1 px-2 text-base text-black flex items-center">
-              View Live <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              View Live <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 
 
             </button>
@@ -80,7 +80,7 @@ const Projects = () => {
               </div>
             </div>
             <button onClick={() => window.open('https://personia-fit-111.vercel.app/', '_blank')} className="cta absolute mt-28 top-96 translate-y-40 left-11 rounded-xl bg-slate-200 p-1 px-2 text-base text-black flex items-center">
-              View Live <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              View Live <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 
 
             </button>
@@ -106,7 +106,7 @@ const Projects = () => {
               </div>
             </div>
             <button onClick={() => window.open('https://learning-app-o94d.onrender.com', '_blank')} className="cta absolute mt-10 top-96 translate-y-40 left-11 rounded-xl bg-slate-200 p-1 px-2 text-base text-black flex items-center">
-              View Live <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              View Live <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 
 
             </button>
@@ -132,7 +132,7 @@ const Projects = () => {
               </div>
             </div>
             <button onClick={() => window.open('https://example.com', '_blank')} className="cta absolute mt-10 top-96 translate-y-40 left-11 rounded-xl bg-slate-200 p-1 px-2 text-base text-black flex items-center">
-              View Live <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              View Live <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 
 
             </button>
