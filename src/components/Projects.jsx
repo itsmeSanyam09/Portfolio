@@ -3,13 +3,13 @@ import './projects.css'
 
 const Projects = () => {
   return (
-    <div className='w-[60vw]'>
+    <div className='w-[60vw] max-md:w-[90vw]'>
       <div className="font-bold px-52 text-3xl text-start -translate-x-4">Projects</div>
       <div className="cards flex flex-col gap-7 pt-10">
         
 
         <div className="card-one border-[1px] border-slate-600 rounded-xl relative object-cover overflow-hidden">
-            <video autoPlay={true} loop muted src='\assets\videos\project-2.mp4' className='w-[60vw] rounded-xl [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] hover:scale-105 transition-all duration-300'  />
+            <video autoPlay={true} loop muted src='\assets\videos\project-2.mp4' className='w-[90vw] rounded-xl [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] hover:scale-105 transition-all duration-300'  />
             <div className="titles absolute top-64 left-0 font-semibold text-2xl text-start -translate-x-32">Significo</div>
             <div className="skills absolute top-72 pt-2 right-0 translate-x-96 flex gap-3">
               <div className="react p-1 px-2 border-slate-500 border-[1px] rounded-lg flex gap-1 items-center justify-between">
@@ -36,7 +36,7 @@ const Projects = () => {
 
         </div>
         <div className="card-one border-[1px] border-slate-600 rounded-xl relative object-cover overflow-hidden">
-            <img src='\assets\images\image2.png' className='w-[60vw] rounded-xl [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] hover:scale-105 transition-all duration-300'  />
+            <img src='\assets\images\image2.png' className='w-[90vw] rounded-xl [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] hover:scale-105 transition-all duration-300'  />
             <div className="titles absolute top-64 left-0 font-semibold text-2xl text-start -translate-x-48">Two Good Co.</div>
             <div className="skills absolute top-72 pt-2 right-0 translate-x-96 flex gap-3">
               <div className="react p-1 px-2 border-slate-500 border-[1px] rounded-lg flex gap-1 items-center justify-between">
@@ -62,7 +62,7 @@ const Projects = () => {
 
         </div>
         <div className="card-one border-[1px] border-slate-600 rounded-xl relative object-cover overflow-hidden">
-            <img src='\assets\images\image3.png' className='w-[60vw] rounded-xl [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] hover:scale-105 transition-all duration-300'  />
+            <img src='\assets\images\image3.png' className='w-[90vw] rounded-xl [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] hover:scale-105 transition-all duration-300'  />
             <div className="titles absolute top-80 left-0 font-semibold text-2xl text-start -translate-x-60">Resume Analyzer</div>
             <div className="skills absolute top-80 pt-12 right-0 translate-x-96 flex gap-3">
               <div className="react p-1 px-2 border-slate-500 border-[1px] rounded-lg flex gap-1 items-center justify-between">
@@ -88,7 +88,7 @@ const Projects = () => {
 
         </div>
         <div className="card-one border-[1px] border-slate-600 rounded-xl relative object-cover overflow-hidden">
-            <img src='\assets\images\image4.png' className='w-[60vw] rounded-xl [mask-image:linear-gradient(to_top,transparent_20%,#000_100%)] hover:scale-105 transition-all duration-300'  />
+            <img src='\assets\images\image4.png' className='w-[90vw] rounded-xl [mask-image:linear-gradient(to_top,transparent_20%,#000_100%)] hover:scale-105 transition-all duration-300'  />
             <div className="titles absolute top-64 left-0 font-semibold text-2xl text-start -translate-x-80">Full-Stack Skill Sync App</div>
             <div className="skills absolute top-72 pt-2 right-0 mr-6 translate-x-96 flex gap-3">
               <div className="react p-1 px-2 border-slate-500 border-[1px] rounded-lg flex gap-1 items-center justify-between">
@@ -114,7 +114,7 @@ const Projects = () => {
 
         </div>
         <div className="card-one border-[1px] border-slate-600 rounded-xl relative object-cover overflow-hidden">
-            <img src='/assets/images/image1.png' className='w-[60vw] rounded-xl [mask-image:linear-gradient(to_top,transparent_20%,#000_100%)] hover:scale-105 transition-all duration-300'  />
+            <img src='/assets/images/image1.png' className='w-[90vw] rounded-xl [mask-image:linear-gradient(to_top,transparent_20%,#000_100%)] hover:scale-105 transition-all duration-300'  />
             <div className="titles absolute top-64 left-0 font-semibold text-2xl text-start -translate-x-32">Todo List</div>
             <div className="skills absolute top-72 pt-2 right-0 translate-x-96 flex gap-3">
               <div className="react p-1 px-2 border-slate-500 border-[1px] rounded-lg flex gap-1 items-center justify-between">

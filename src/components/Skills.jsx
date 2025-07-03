@@ -7,8 +7,8 @@ const Skills = () => {
 
   return (
     <div className="flex flex-col gap-3 items-start">
-    <div className="font-bold px-10 text-3xl">My Tech Stack</div>
-    <div className='skills relative  flex items-center  rounded-lg py-2 px-4 inset-shadow-[0_300px_300px_rgba(0,0,0,0.95)] w-[40vw] overflow-hidden gap-3'>
+    <div className="font-bold px-10 max-md:text-2xl text-3xl text-nowrap">My Tech Stack</div>
+    <div className='skills relative  flex items-center  rounded-lg py-2 px-4 inset-shadow-[0_300px_300px_rgba(0,0,0,0.95)] max-lg:w-[65vw] w-[40vw] overflow-hidden gap-3'>
         <div style={{
             background: 'linear-gradient(to right, #09090B 0%, transparent 20%, transparent 80%, #09090B 100%)',
         }} className="absolute top-0 left-0 w-full h-full z-[10] overflow-hidden"></div>

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Work = () => {
   return (
-    <div className='w-[40vw]'>
-        <div className="font-bold text-3xl text-white text-start translate-x-9">Experience</div>
-        <div className="work-container flex gap-4   font-[url('Geist/Geist-VariableFont_wght.ttf')]">
+    <div className='w-[40vw] max-md:w-[80vw] flex flex-col max-md:items-center'>
+        <div className="font-bold text-3xl max-md:tracking-wide max-md:text-2xl text-white text-center max-md:-translate-x-5 translate-x-9">Experience</div>
+        <div className="work-container flex gap-4 font-[url('Geist/Geist-VariableFont_wght.ttf')]">
             <div className="points flex flex-col mt-14">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30
                 " height="300" viewBox="0 0 67 765" fill="none">
@@ -29,24 +29,24 @@ const Work = () => {
                 </svg>
 
             </div>
-            <div className="texts flex flex-col gap-6 mt-5">
+            <div className="texts flex flex-col max-md:gap-3 gap-6 mt-5 max-md:">
                 <div className="card flex flex-col justify-start  font-[url('Geist/Geist-VariableFont_wght.ttf')]">
-                <div className="company font-normal text-slate-500 text-start text-lg">Persona Fit</div>
+                <div className="company font-normal text-slate-500 text-start text-lg max-md:text-base">Persona Fit</div>
                 <div className="role text-xl text-start font-bold">Front-end Web Developer</div>
                 <div className="date text-sm text-slate-400 text-start">March 2025 - April 2025</div>
-                <div className="text-lg text-nowrap text-start">To design and develop the landing page and dashboard for Persona Fit using Figma <br/>and React js.</div>
+                <div className="text-lg max-md:text-base text-wrap text-start">To design and develop the landing page and dashboard for Persona Fit using Figma and React js.</div>
                 </div>
                 <div className="card flex flex-col justify-start  font-[url('Geist/Geist-VariableFont_wght.ttf')]">
-                <div className="company font-normal text-slate-500 text-start text-lg">Brushtly.com</div>
+                <div className="company font-normal text-slate-500 text-start text-lg max-md:text-base">Brushtly.com</div>
                 <div className="role text-xl text-start font-bold">Shopify Developer</div>
                 <div className="date text-sm text-slate-400 text-start">03 May 2025 - 14 May 2025</div>
-                <div className="text-lg text-nowrap text-start">Designing website and connecting payment gateway and some custom liquid code<br/> customizations.</div>
+                <div className="text-lg max-md:text-base text-wrap text-start">Designing website and connecting payment gateway and some custom liquid code customizations.</div>
                 </div>
                 <div className="card flex flex-col justify-start  font-[url('Geist/Geist-VariableFont_wght.ttf')]">
-                <div className="company font-normal text-slate-500 text-start text-lg">VÉRÉ</div>
+                <div className="company font-normal text-slate-500 text-start text-lg max-md:text-base">VÉRÉ</div>
                 <div className="role text-xl text-start font-bold">Shopify Developer</div>
                 <div className="date text-sm text-slate-400 text-start">21 May 2025 - 27 May 2025</div>
-                <div className="text-lg text-nowrap text-start">From adding  products to developing website and connecting shipment and payment<br/> gateway.</div>
+                <div className="text-lg max-md:text-base text-wrap text-start">From adding  products to developing website and connecting shipment and payment gateway.</div>
                 </div>
             </div>
 
